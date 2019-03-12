@@ -69,9 +69,9 @@ nav label {
     .text-field {
         width: 90%;
         float: left;
-        border: 1px 0 1px 1px;
         border: 1px solid #ccc;
         border-right: 0px;
+        height: 1.95rem;
     }
 
     .button {
@@ -115,6 +115,7 @@ nav label {
     .sidebar h1 {
         font-size: 2.25rem
     }
+    
 }
 
 @media screen and (max-width: 480px) {
@@ -131,4 +132,70 @@ nav label {
     .nist-links {
         display: none;
     }
+    ul.cve-examples {
+        columns: 1;
+    }
 }
+
+// menu toggle
+@media (max-width: 48em) {
+    .sidebar {
+        display: block;
+        input#toggle {
+            display: none;
+            visibility: hidden;
+        }
+
+        label {
+            display: block;
+            padding: .5em .5em 1.5em .5em;
+            text-align: center;
+            font-size: 1.4rem;
+        }
+
+        label:before {
+            font-size: 1.4rem;
+            content: "Show";
+            margin-right: 8px;
+        }
+
+        .expand {
+            height: 0;
+            overflow: hidden;
+            transition: height .5s;
+        }
+
+        #toggle:checked ~ .expand {
+          height: 35em;
+        }
+        #toggle:checked ~ label::before {
+          content: "Hide";
+        }
+
+    }
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.expand {
+    height: auto;
+    overflow: auto;;
+}
+
+.cve-examples {
+    columns: 3;
+}
+
+.footer {
+
+    a {
+        font-size: 18px;
+    }
+
+    sub {
+        font-size: 15px;
+    }
+}
+

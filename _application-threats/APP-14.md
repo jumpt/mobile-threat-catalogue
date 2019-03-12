@@ -2,7 +2,8 @@
     layout: threat
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-14
-    Threat: "Repackaging or impersonating a benign app, such as an online banking app, to contain malicious functionality (i.e., trojan)"
+    Threat: "Trojan app impersonates a legitimate app"
+    ThreatDescription: "Like well-behaved apps, a trojan app offers some functionality to the user, though a trojan also includes hidden functionality that is malicious or otherwise undesirable. One technique for deploying trojan functionality is to obtain the install packages for a legitimate app, decompile/disassemble it, introduce the trojan, and then generate a new install package. The app will appear to a user to be the legitimate app. Distribution of trojans is commonly achieved by submission to open 3rd party app stores or social engineering attacks claiming to offer users the app with incentives (lower cost, free, extras unlocked, etc.)."
     ThreatOrigin:
         - "The Google Android Security Team's Classifications for Potentially Harmful Applications [^83]"
         - "Mobile Threat Protection: A Holistic Approach to Securing Mobile Data and Devices [^61]"
@@ -14,9 +15,14 @@
         - "Cloned banking app stealing usernames sneaks into Google Play [^88]"
     CVEExample:
     PossibleCountermeasures:
-        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores."
-        - "Use Android Verify Apps feature to identify harmful apps."
-        - "Perform application vetting to identify inappropriate behaviors by apps including permission requests made by the apps."
-        - "Use application threat intelligence data about potential risks associated with apps installed on devices."
-        - "Use features such as Apple iOS Managed Apps, Android for Work, or Samsung KNOX Workspace that provide some level of separation between personal apps and enterprise apps to mitigate the impact of malicious behaviors."
+        "Deploy MAM or MDM solutions with policies that prohibit the sideloading of apps, which may bypass security checks on the app.":
+            - Enterprise
+        "Deploy MAM or MDM solutions with policies that prohibit the installation of apps from 3rd party (unofficial) app stores.":
+            - Enterprise
+        "Use Android Verify Apps feature to identify potentially harmful apps.":
+            - Mobile Device User
+        "Use application threat intelligence data about potentially harmful apps installed on COPE or BYOD devices":
+            - Enterprise
+        "To reduce the ease of an attacker to abuse existing app functionality, only request access to the minimal set of shared data stores (e.g., contacts, calendar), OS services (e.g. location services), and device sensors (e.g. camera, microphone) necessary for the app to provide functionality.":
+            - Mobile App Developer
 ---

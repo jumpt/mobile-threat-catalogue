@@ -139,7 +139,7 @@
 
 [^74]: M. Grace et al., "Unsafe Exposure Analysis of Mobile In-App Advertisements", in Proceedings of the Fifth ACM Conference on Security and Privacy in Wireless and Mobile Networks,2012, pp. 101-112; http://dl.acm.org/citation.cfm?id=2185464 [accessed 8/25/2016]
 
-[^75]: S. Guerrero, "eBay for Android Content Provider Injection Vulnerability", blog, 4 Oct. 2013; www.nowsecure.com/blog/2013/10/04/ebay-for-android-content-provider-injection-vulnerability/ [accessed 8/25/2016]
+[^75]: S. Guerrero, "eBay for Android Content Provider Injection Vulnerability", blog, 4 Oct. 2013.
 
 [^76]: X. Jiang, "Smishing Vulnerability in Multiple Android Platforms (including Gingerbread, Ice Cream Sandwich, and Jelly Bean)", 28 Nov. 2012; www.csc.ncsu.edu/faculty/jiang/smishing.html [accessed 8/25/2016]
 
@@ -395,7 +395,7 @@
 
 [^206]: "Android Security Bulletin June 2016", 8 Dec. 2016; http://source.android.com/security/bulletin/2016-06-01.html [accessed 8/29/2016]
 
-[^207]: R. Chirgwin, "This is what a root debug backdoor in a Linux kernel looks like," The Register, 9 May. 2016; http://www.theregister.co.uk/2016/05/09/allwinners_allloser_custom_kernel_has_a_nasty_root_backdoor/
+[^207]: R. Chirgwin, "This is what a root debug backdoor in a Linux kernel looks like," The Register, 9 May 2016; http://www.theregister.co.uk/2016/05/09/allwinners_allloser_custom_kernel_has_a_nasty_root_backdoor/
 
 [^208]: S. Gallagher, "Chinese ARM vendor left developer backdoor in kernel for Android, other devices," Ars Technica, 11 May 2016; http://arstechnica.com/security/2016/05/chinese-arm-vendor-left-developer-backdoor-in-kernel-for-android-pi-devices/
 
@@ -433,7 +433,7 @@
 
 [^225]: "Phone Theft in America: What really happens when your phone gets grabbed", blog, 7 May 2014; https://blog.lookout.com/blog/2014/05/07/phone-theft-in-america/ [accessed 8/25/2016]
 
-[^226]: C. Deitrick, Smartphone thefts drop as kill switch usage grows", Consumer Reports, 11 Jun 2015; http://www.consumerreports.org/cro/news/2015/06/smartphone-thefts-on-the-decline/index.htm [accessed 8/30/2016]
+[^226]: C. Deitrick, Smartphone thefts drop as kill switch usage grows, Consumer Reports, 11 June 2015; http://www.consumerreports.org/cro/news/2015/06/smartphone-thefts-on-the-decline/index.htm [accessed 8/30/2016]
 
 [^227]: Security Tips, https://developer.android.com/training/articles/security-tips.html [accessed on 8/24/2016]
 
@@ -468,3 +468,75 @@
 [^242]: M. Thompson, "Method Swizzling", blog, 17 Feb. 2014; http://nshipster.com/method-swizzling/ [accessed 8/31/16]
 
 [^243]: S. Skorobogatov, "The bumpy road towards iPhone 5c NAND mirroring," University of Cambridge Computer Laboratory, Cambridge, MA, 2016
+
+[^250]: Secure Element Deployment & Host Card Emulation v1.0, white paper, SIMalliance, 2014; http://simalliance.org/wp-content/uploads/2015/03/Secure-Element-Deployment-Host-Card-Emulation-v1.0.pdf [accessed 10/24/2016]
+
+[^251]: Host Card Emulation (HCE) 101, white paper MNFCC-14002, Smart Card Alliance Mobile & NFC Council, 2014; http://www.smartcardalliance.org/downloads/HCE-101-WP-FINAL-081114-clean.pdf [accessed 10/24/2016]
+
+[^252]: HCE Payment - How it works and best practices for banks, white paper, Mozido, 2016.
+
+[^244]: "Keychain Services Programming Guide", Apple, 2016; https://developer.apple.com/library/content/documentation/Security/Conceptual/keychainServConcepts/01introduction/introduction.html [accessed 10/14/2016]
+
+[^245]: "Android Keystore System", https://developer.android.com/training/articles/keystore.html [accessed 10/14/2016]
+
+[^246]: E. Barker, Recommendation for Key Management: Part 1: General, NIST SP 800-574 pt. 1 rev. 4, National Institute of Standards and Technology, 2016; http://dx.doi.org/10.6028/NIST.SP.800-57pt1r4 [accessed 10/17/2016]
+
+[^247]: D. Pauli, "Every LTE call, text, can be intercepted, blacked out, hacker finds", The Register, 23 Oct 2016; http://www.theregister.co.uk/2016/10/23/every_lte_call_text_can_be_intercepted_blacked_out_hacker_finds/ [accessed 10/26/2016]
+
+[^S-Konstantaras-1]: S. Konstantaras and C. Dillon, _Exploiting Vulnerabilities of Wi-Fi SD cards_, project report, Universiteit van Amsterdam, 1 June 2014; https://staff.science.uva.nl/j.j.vanderham/cases/wifi-sd-cards.pdf [accessed 10/24/2016]
+
+[^Bunnie-1]: bunnie:studios, "On Hacking MicroSD Cards", blog, Dec. 2013; https://www.bunniestudios.com/blog/?p=3554 [accessed 10/24/2016]
+
+[^M-Zhang-1]: M. Zhang, "Android ransomware variant uses clickjacking to become device administrator", Symantec Official Blog, 27 Jan. 2016, www.symantec.com/connect/blogs/android-ransomware-variant-uses-clickjacking-become-device-administrator [accessed 11/29/2016]
+
+[^Y-Amit1]: Y. Amit, "\"Accessibility Clickjacking\" - The Next Evolution in Android Malware that Impacts More Than 500 Million Devices", Skycure Mobile Security Blog, 3 Mar. 2016, www.skycure.com/blog/accessibility-clickjacking/ [accessed 11/29/2016]
+
+[^Symantec-1]: "Android.Lockdown.E", Symantec, 6 Aug. 2016, www.symantec.com/security_response/writeup.jsp?docid=2014-103005-2209-99 [accessed 11/29/2016]
+
+[^251]: M. Vanhoef et al., "Why MAC Address Randomization is not Enough: An Analysis of Wi-Fi Netowrk Discovery Mechanisms.", in Proceedings of the 11th ACM on Asia Conference on Computer and Communications Security, 2016, pp. 413-424.
+
+[^248]: M. Humphries, "Touchscreen keylogger created using accelerometer movement during typing", PCMag, 9 Dec. 2011; http://www.geek.com/mobile/touchscreen-keylogger-created-using-accelerometer-movement-during-typing-1420485/ [accessed 11/07/2016]
+
+[^249]: E. Miluzzo et al., "Tapprints: your finger taps have fingerprints", in _Proceedings of the 10th International Conference on Mobile Systems, Applications, and Services_, 2012, pp. 323-336; https://forge.info.unicaen.fr/attachments/download/559/tapprints-final.pdf
+
+[^250]: C. Liang and H. Chen, "TouchLogger: Inferring Keystrokes on Touch Screen from Smartphone Motion", presented at _6th USENIX Workshop on Hot Topics in Security_, 9 Aug. 2011; https://pdfs.semanticscholar.org/8c8c/f6ff0a88a5ae99360cada9afaf5439b61a8d.pdf [accessed 11/07/2016]
+
+[^J-Padgette-1]: J. Padgette et. al, Guide to Bluetooth Security, Draft SP 800-121 rev. 2, National Institute of Standards and Technology, 2016; http://csrc.nist.gov/publications/drafts/800-121/sp800_121_r2_draft.pdf [accessed 12/07/2016]
+
+[^O-Whitehouse-1]: O. Whitehouse, _War Nibbling: Bluetooth Insecurity_, white paper, 2003; www.wardriving.ch/hpneu/blue/doku/atstake_war_nibbling.pdf [accessed 12/07/2016]
+
+[^O-Afonin-1]: O. Afononin, _TouchLogger: Inferring Keystrokes on Touch Screen from Smartphone Motion_, Elcomsoft Blog, 23 Sept 2016; https://blog.elcomsoft.com/2016/09/ios-10-security-weakness-discovered-backup-passwords-much-easier-to-break/ [accessed 12/9/2016]
+
+[^D-Goodin-1]: D. Goodin, "Using Rowhammer bitflips to root Android phones is now a thing", _Ars Technica_, 23 Oct. 2016; http://arstechnica.com/security/2016/10/using-rowhammer-bitflips-to-root-android-phones-is-now-a-thing/ [accessed 12/15/2016]
+
+[^Apple-1]: "About the security content of iOS 10.3", Apple, https://support.apple.com/en-us/HT207617 [accessed 4/10/2017]
+
+[^AndroidDevBlog-1]: "An investigation of Chrysaor Malware on Android", blog, 3 Apr. 2017; https://android-developers.googleblog.com/2017/04/an-investigation-of-chrysaor-malware-on.html [accessed 4/5/2017]
+
+[^TrendMicro-1]: "androidos_kagecoin.hbt" in _Threat Encyclopedia_, TrendMicro, 2014;  http://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/AndroidOS_KageCoin.HBT [accessed 01/05/2017]
+
+[^V-Zhang-1]: V. Zhang, "Mobile Malware Mines Dogecoins and Litecoins for Bitcoin Payout", TrendLabs Security Intelligence Blog, 25 Mar. 2104; http://blog.trendmicro.com/trendlabs-security-intelligence/mobile-malware-mines-dogecoins-and-litecoins-for-bitcoin-payout/ [accessed 01/05/2017]
+
+[^T-Katsuki-1]: T. Katsuki, "Android.Tascudap", Symantec; www.symantec.com/security_response/writeup.jsp?docid=2012-121312-4547-99 [accessed 01/05/2017]
+
+[^AirWatch-1]: "VMSA-2017-0001", AirWatch Security Advisories, 30 Jan. 2017; http://www.vmware.com/security/advisories/VMSA-2017-0001.html [accessed 04/21/2017]
+
+[^Ha-1]: A. Ha, "SilverPush Says It's Using Audio Beacons For An Unusual Approach to Cross-Device Ad Targeting", TechCrunch, 24 July 2014; https://techcrunch.com/2014/07/24/silverpush-audio-beacons/ [accessed 05/05/2017]
+
+[^Arp-1]: D. Arp, et al., "Privacy Threats through Ultrasonic Side Channels on Mobile Devices", [white paper], 2017; http://christian.wressnegger.info/content/projects/sidechannels/2017-eurosp.pdf [accessed 05/05/2017]
+
+[^Artenstein-1]: N. Artenstein, "Broadpwn: Remotely Compromising Android and IOS Via a Bug in the Broadcom Wi-Fi Chipset", [white paper], 2017; https://www.blackhat.com/docs/us-17/thursday/us-17-Artenstein-Broadpwn-Remotely-Compromising-Android-And-iOS-Via-A-Bug-In-Broadcoms-Wifi-Chipsets-wp.pdf [accessed 08/08/2017]
+
+[^Rambus-1]: "Evolving differential power analysis targets SIM cards," Rambus, 23 Sept. 2015; https://www.rambus.com/blogs/security-evolving-differential-power-analysis-targets-sim-cards/ [accessed 07/18/2017]
+
+[^D-Goodin-2]: D. Goodin, "Currency-mining Android malware is so aggressive it can physically harm phones", _Ars Technica_, 19 Dec. 2017; https://arstechnica.com/information-technology/2017/12/currency-mining-android-malware-is-so-aggressive-it-can-physically-harm-phones/ [accessed 02/02/2018]
+
+[^A-Chen-L-Goode-1]: A. Chen and L. Goode "The science behind exploding phone batteries", _The Verge_, 13 Oct. 2016; https://www.theverge.com/2016/9/8/12841342/why-do-phone-batteries-explode-samsung-galaxy-note-7 [accessed 02/02/2018]
+
+[^J-Horn-1]: J. Horn, "Reading privileged memory with a side-channel", Project Zero blog, Google, Jan. 3, 2018; https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html [accessed 1/10/2018]
+
+[^P-Kocher-et-al-1]: P. Kocher et al., _Spectre Attacks: Exploiting Speculative Execution_, white paper, 2017; https://spectreattack.com/spectre.pdf [accessed 02/02/2018]
+
+[^M-Lipp-et-al-1]: M. Lipp et al., _Meltdown_, white paper, 2017; https://meltdownattack.com/meltdown.pdf [accessed 02/02/2018]
+
+[^P-Frigo-1]: P. Frigo et al., _Grand Pwning Unit: Accelerating Microarchitectural Attacks with the GPU_, white paper, 2018; https://www.vusec.net/wp-content/uploads/2018/05/glitch.pdf

@@ -7,7 +7,7 @@
 
         {% include sidebar.html %}
 
-        <div class="content container">
+        <div class="content container" id="page">
             {{ content | markdownify }}
             {% include nist-footer.html %}
         </div>

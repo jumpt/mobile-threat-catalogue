@@ -2,8 +2,7 @@
 layout: page
 title: Contributing
 ---
-
-# Contributing
+<h1 class="page-heading" >{{page.title}}</h1>
 
 ## 	[View on Github](https://github.com/usnistgov/mobile-threat-catalogue/)
 
@@ -20,7 +19,7 @@ No account is needed to review the updated version of the Mobile Threat Catalogu
 
 ### Getting Started
 
-1. **Establish a GitHub account.** In order to submit a comment through the GitHub "Issues" feature, you will need to create a GitHub account. This can be done by proceeding to [github.com/join](https://github.com/join). GitHub allows you to remain pseudonymous if you would like, just make sure you select the options that suit you on the "Profile" and "Emails" pages of your "Personal Settings."  We also highly encourage you to turn on two-factor authentication in the "Security" page, also part of "Personal Settings."  
+1. **Establish a GitHub account.** In order to submit a comment through the GitHub "Issues" feature, you will need to create a GitHub account. This can be done by proceeding to [github.com/join](https://github.com/join). GitHub allows you to remain pseudonymous if you would like, just make sure you select the options that suit you on the "Profile" and "Emails" pages of your "Personal Settings."  We also highly encourage you to turn on two-factor authentication in the "Security" page, also part of "Personal Settings."
   ![How to create account]({{ site.baseurl }}/img/create_github_account.png)
 
 ### Creating an Issue
@@ -31,10 +30,10 @@ No account is needed to review the updated version of the Mobile Threat Catalogu
 
 2. Review open and closed issues to determine if a similar issue has already been created.
 
-3. Click on the "New Issue" button in the upper right of the screen.  
+3. Click on the "New Issue" button in the upper right of the screen.
 ![Create issue]({{ site.baseurl }}/img/create_new_issue.png)
 
-4. Provide a short description in the field labelled "Title" for the feedback being provided.  
+4. Provide a short description in the field labelled "Title" for the feedback being provided.
 ![Issue title]({{ site.baseurl }}/img/issue_title.png)
 
 5. Within the field labelled "Leave a comment," fill out the comment template and provide as much information as possible.
@@ -52,7 +51,15 @@ No account is needed to review the updated version of the Mobile Threat Catalogu
         - **Threat Origin**: If possible, provide at least one resource that describes the nature of this threat.
         - **Exploit Example**: If possible, provide at least one source that evidences the threat has been realized, either in a laboratory setting or in-the-wild.
         - **CVE Example**: If this threat is related to a published CVE, provide one or more CVE numbers.
-        - **Possible Countermeasures**: Provide any measures that hinder the successful realization of, reduce the impact of, or improve recovery following incidents involving this threat.
+        - **Possible Countermeasures**: Provide any measures that hinder the successful realization of, reduce the impact of, or improve recovery following incidents involving this threat.:
+            - Choose the actor that the countermeasure applies to from following list.
+                - Mobile Device User
+                - Mobile App Developer
+                - Mobile OS Developer
+                - Public App Store Provider
+                - Mobile Network Operator
+                - Enterprise
+                - Original Equipment Manufacturer
         - **References**: Provide any references to supporting sources is the following format.
             - Author(s), "Name of Document", in Name of Publication, [type of resource], Date of Publication, URL (if available online)
 
@@ -63,15 +70,16 @@ No account is needed to review the updated version of the Mobile Threat Catalogu
     - **enhancement**: A change to an existing page.
     - **invalid**: Used by maintainers to mark an issue that's been raised in error.
     - **newthreat**: A new threat to be added to the repository.
+    - **pending**: A valid issue that will be addressed long term or in the NISTIR itself.
     - **question**: A question directed at the maintainers.
     - **wontfix**: Used by maintainers to mark an issue that will not be resolved.
 
 7. If you plan on resolving the issue yourself, click the "assign yourself" link in the "Assignees section." Otherwise, leave this blank.
 
-8. Hit "Submit New Issue" and you are done!  
+8. Hit "Submit New Issue" and you are done!
 ![Submit issue]({{ site.baseurl }}/img/submit_new_issue.png)
 
-9. If you want to keep up with others comments through email and monitor future changes, make sure you choose to "Watch" the project!  
+9. If you want to keep up with others comments through email and monitor future changes, make sure you choose to "Watch" the project!
 ![Watch project]({{ site.baseurl }}/img/watch_project.png)
 
 If you are familiar with Github you are also welcome to provide suggestions to concrete changes as a pull request. Please provide information about organization and a rationale for suggested change.
@@ -121,8 +129,10 @@ If you are familiar with Github you are also welcome to provide suggestions to c
                 -
                 -
             PossibleCountermeasures:
-                -
-                -
+                Countermeasure one goes here:
+                    - actor 1
+                    - actor 2
+                Countermeasure two goes here:
         ---
 
 4. Fill in each of the fields with the following information. Wrapping any long strings in double quotes and escaping any internal quotes.
@@ -131,7 +141,16 @@ If you are familiar with Github you are also welcome to provide suggestions to c
     - **Threat Origin**: If possible, provide at least one resource that describes the nature of this threat.
     - **Exploit Example**: If possible, provide at least one source that evidences the threat has been realized, either in a laboratory setting or in-the-wild.
     - **CVE Example**: If this threat is related to a published CVE, provide one or more CVE numbers.
-    - **Possible Countermeasures**: Provide any measures that hinder the successful realization of, reduce the impact of, or improve recovery following incidents involving this threat.
+    - **Possible Countermeasures**: Provide any measures that hinder the successful realization of, reduce the impact of, or improve recovery following incidents involving this threat.:
+        - Choose the actor that the countermeasure applies to from following list.
+            - Mobile Device User
+            - Mobile App Developer
+            - Mobile OS Developer
+            - Public App Store Provider
+            - Mobile Network Operator
+            - Enterprise
+            - Original Equipment Manufacturer
+
 5. [Create a pull request](#creating-a-pull-request).
 
 
